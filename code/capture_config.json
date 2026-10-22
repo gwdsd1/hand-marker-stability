@@ -1,0 +1,11 @@
+{
+  "schema": "capture1019_marker_first/v1",
+  "source": "/data1/DEV/egovicon_joint_captures/capture1019test2_20261019_095858_d74481",
+  "native_c3d": "mocap/capture1019test2_native300.c3d",
+  "actor_prefix": "oyx2222",
+  "camera_body_prefix": "sxt",
+  "initial_pose_npz": "soma_hand_final/human_motion_fit.npz",
+  "initial_extrinsics_json": "/data2/wangzhengwei/femto_sxt_rgb_extrinsics_candidate_20261020.json",
+  "initial_extrinsics_are_only_a_prior": false,
+  "pose_initialization_policy": "C3D only; initial_pose_npz is a legacy metadata field, never loaded by the current fitter"
+}

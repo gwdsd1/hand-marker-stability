@@ -1,0 +1,50 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Editor / operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Recorded data, model assets and generated media
+*.zip
+*.tar
+*.tar.gz
+*.c3d
+*.npz
+*.npy
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.ply
+*.obj
+*.log
+
+# External replay inputs and experiment outputs
+baseline/
+baseline_profile/
+inputs_v2/
+wrist_articulation/
+evaluation_reference/
+evaluation_finger_records.json
+VISUAL_REVIEW_RECORD.json
+models/
+data/
+outputs/
+runs/
+cache/
+tmp/

@@ -1,0 +1,206 @@
+{
+  "version": "2026-10-22 accepted palm/thumb stability",
+  "frozen_source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022",
+  "source_finalization_sha256": "9ec9e067cbaa5361c3b80c048337e8e4ac9f7aa67c0eac697002147ffd3d4f05",
+  "selected_left": "guarded_axes_v3",
+  "selected_right": "baseline",
+  "pipeline_python_files": 29,
+  "copied_files": {
+    "build_code_manifest.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/build_code_manifest.py",
+      "source_sha256": "1cd34455c93672851e706e7c2f7d81c3ec8617701978036a84ac74b23f645d66",
+      "frozen_sha256": "1cd34455c93672851e706e7c2f7d81c3ec8617701978036a84ac74b23f645d66"
+    },
+    "capture.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/capture.py",
+      "source_sha256": "cec8fe72fe9bb9a390b785e8037f376dc61c3a6d2db80ed79dfb8904d58bf867",
+      "frozen_sha256": "cec8fe72fe9bb9a390b785e8037f376dc61c3a6d2db80ed79dfb8904d58bf867"
+    },
+    "common.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/common.py",
+      "source_sha256": "34e5621d5793f87bcb82b2a71fe0b24ce1b2c134afdaa16b36de4f533a323649",
+      "frozen_sha256": "34e5621d5793f87bcb82b2a71fe0b24ce1b2c134afdaa16b36de4f533a323649"
+    },
+    "constrained_thumb.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/constrained_thumb.py",
+      "source_sha256": "41ddd52d2852baa9faf893fb76ae89862b2ca444142f2c1f913e4938bde2cfbd",
+      "frozen_sha256": "41ddd52d2852baa9faf893fb76ae89862b2ca444142f2c1f913e4938bde2cfbd"
+    },
+    "create_research_copy.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/create_research_copy.py",
+      "source_sha256": "03a83b9314fe8af8721d083b665b1553d086b32e97ba001ad28a1af85bcef304",
+      "frozen_sha256": "03a83b9314fe8af8721d083b665b1553d086b32e97ba001ad28a1af85bcef304"
+    },
+    "evaluate_candidates.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/evaluate_candidates.py",
+      "source_sha256": "02a2379872b1fd6b444cecee47cea87c43c444b72fd11fe0c2a485e6414fb74c",
+      "frozen_sha256": "02a2379872b1fd6b444cecee47cea87c43c444b72fd11fe0c2a485e6414fb74c"
+    },
+    "evaluate_finger_alignment.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/evaluate_finger_alignment.py",
+      "source_sha256": "5e874b4114c75c47c97349b2775d9a828612ffd21d25789b134ffd6aaf7afe06",
+      "frozen_sha256": "5e874b4114c75c47c97349b2775d9a828612ffd21d25789b134ffd6aaf7afe06"
+    },
+    "evaluate_side_views.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/evaluate_side_views.py",
+      "source_sha256": "e4229c29dd36f3867ca142b2c5db438381a9e265251d9b24b41777ebc5dbe72b",
+      "frozen_sha256": "e4229c29dd36f3867ca142b2c5db438381a9e265251d9b24b41777ebc5dbe72b"
+    },
+    "evaluate_stability_trials.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/evaluate_stability_trials.py",
+      "source_sha256": "8b33002743d7828b4dd38c795ba1209213d1ecdf0b50f39768757777da42072c",
+      "frozen_sha256": "8b33002743d7828b4dd38c795ba1209213d1ecdf0b50f39768757777da42072c"
+    },
+    "gate_no_regression.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/gate_no_regression.py",
+      "source_sha256": "9375852149d03f8ba75d95a52f470f6a78c109e8a9959a807bcf58c9cfbaa094",
+      "frozen_sha256": "9375852149d03f8ba75d95a52f470f6a78c109e8a9959a807bcf58c9cfbaa094"
+    },
+    "guard_stability.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/guard_stability.py",
+      "source_sha256": "22295143575cb95795e3f5e1d25079b673ae8c2868d1b4689b02241ed4865b30",
+      "frozen_sha256": "22295143575cb95795e3f5e1d25079b673ae8c2868d1b4689b02241ed4865b30"
+    },
+    "io_utils.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/io_utils.py",
+      "source_sha256": "d6b44954ec3c3b062f676a3dec232033d20dce36fc9c88c6de8cde932fb29da0",
+      "frozen_sha256": "d6b44954ec3c3b062f676a3dec232033d20dce36fc9c88c6de8cde932fb29da0"
+    },
+    "mano_base.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/mano_base.py",
+      "source_sha256": "d35facd87c9f3a7577ecedc7c836a8146afd1a164c788f99dc45c11188d230da",
+      "frozen_sha256": "d35facd87c9f3a7577ecedc7c836a8146afd1a164c788f99dc45c11188d230da"
+    },
+    "marker_model.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/marker_model.py",
+      "source_sha256": "22d3cac64db15a165d9cffad3e9f85397a10dc5d10138b83d8f7354f54b49a9e",
+      "frozen_sha256": "22d3cac64db15a165d9cffad3e9f85397a10dc5d10138b83d8f7354f54b49a9e"
+    },
+    "marker_overlay.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/marker_overlay.py",
+      "source_sha256": "1bc382ff9e7594d3520eb770cb5cd11572ade8c90bd76374fd33ff168826ade7",
+      "frozen_sha256": "1bc382ff9e7594d3520eb770cb5cd11572ade8c90bd76374fd33ff168826ade7"
+    },
+    "measure_silhouettes.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/measure_silhouettes.py",
+      "source_sha256": "b3fc690fad0aca08faa6a3d6ac16feafe3bfb91221663b77999a67df398bbc8c",
+      "frozen_sha256": "b3fc690fad0aca08faa6a3d6ac16feafe3bfb91221663b77999a67df398bbc8c"
+    },
+    "palm_view.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/palm_view.py",
+      "source_sha256": "13dbc34fcd6e9a5000ff6b3dfeb0338fffd0d69edf5d4410eaf499b678833074",
+      "frozen_sha256": "13dbc34fcd6e9a5000ff6b3dfeb0338fffd0d69edf5d4410eaf499b678833074"
+    },
+    "render.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/render.py",
+      "source_sha256": "bf1c0fa09cd4f293d8ec80910ac5871c6012aa0da60cde0709d6be57112a1b37",
+      "frozen_sha256": "bf1c0fa09cd4f293d8ec80910ac5871c6012aa0da60cde0709d6be57112a1b37"
+    },
+    "render_comparison.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/render_comparison.py",
+      "source_sha256": "cb4c8c46bfc3b7df72a720cf88fa1bee844e70fd880d0229e381ffe4f79273e5",
+      "frozen_sha256": "cb4c8c46bfc3b7df72a720cf88fa1bee844e70fd880d0229e381ffe4f79273e5"
+    },
+    "render_detail.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/render_detail.py",
+      "source_sha256": "efb26aeceda6e0654f084aa95a078e86ba5b69da24093d42fd4769882187c317",
+      "frozen_sha256": "efb26aeceda6e0654f084aa95a078e86ba5b69da24093d42fd4769882187c317"
+    },
+    "review_videos.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/review_videos.py",
+      "source_sha256": "ade9fc58eadf63180cf5cc1621e4be177cb5cb8fc5e6bc5e1dfcd1d3e41ddc47",
+      "frozen_sha256": "ade9fc58eadf63180cf5cc1621e4be177cb5cb8fc5e6bc5e1dfcd1d3e41ddc47"
+    },
+    "rgb_camera.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/rgb_camera.py",
+      "source_sha256": "d10b784c86628250aef7341cfc6c4bfb36fba8edbca06babe71f511621ef44f0",
+      "frozen_sha256": "d10b784c86628250aef7341cfc6c4bfb36fba8edbca06babe71f511621ef44f0"
+    },
+    "run_stability_pipeline.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/run_stability_pipeline.py",
+      "source_sha256": "4d32217a1f219b2c3ef7cf9bc985bda1333cc5c6cd95f7a0aa177a264bf42fb1",
+      "frozen_sha256": "4d32217a1f219b2c3ef7cf9bc985bda1333cc5c6cd95f7a0aa177a264bf42fb1"
+    },
+    "select_stability.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/select_stability.py",
+      "source_sha256": "5e20e6a94572097e6f39ab803dab0a567bbd0ccc80e9fb38f6ccb1df2358f859",
+      "frozen_sha256": "5e20e6a94572097e6f39ab803dab0a567bbd0ccc80e9fb38f6ccb1df2358f859"
+    },
+    "stability_delivery.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/stability_delivery.py",
+      "source_sha256": "3611af0ccac30cf4568010ac6c11fd26f7adf5aa289277943f0bdc64edbfafec",
+      "frozen_sha256": "3611af0ccac30cf4568010ac6c11fd26f7adf5aa289277943f0bdc64edbfafec"
+    },
+    "stability_metrics.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/stability_metrics.py",
+      "source_sha256": "2065fa940910a9a32edfad80bb6cbdf00c8be1a0707dc1d4ab0b7758646bdbf9",
+      "frozen_sha256": "2065fa940910a9a32edfad80bb6cbdf00c8be1a0707dc1d4ab0b7758646bdbf9"
+    },
+    "test_thumb_constraints.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/test_thumb_constraints.py",
+      "source_sha256": "558f4adad0433f6d913d7b595b7e3e2cee98c461e7e4910e13250c1ebd89165f",
+      "frozen_sha256": "558f4adad0433f6d913d7b595b7e3e2cee98c461e7e4910e13250c1ebd89165f"
+    },
+    "verify_delivery.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/verify_delivery.py",
+      "source_sha256": "92f3a328e39eb7d3ceb80c0177d1d6fcff1ba2f5acb4c7b26e884d5ed81e9575",
+      "frozen_sha256": "92f3a328e39eb7d3ceb80c0177d1d6fcff1ba2f5acb4c7b26e884d5ed81e9575"
+    },
+    "verify_stability.py": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/verify_stability.py",
+      "source_sha256": "ad8a6cebb25bdfbd4fe15e5d86710d525c941f2cd59d2791f524a1bfb29aa07f",
+      "frozen_sha256": "ad8a6cebb25bdfbd4fe15e5d86710d525c941f2cd59d2791f524a1bfb29aa07f"
+    },
+    "capture_config.json": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/capture_config.json",
+      "source_sha256": "825066cca46c712c279aa09e4fd6c55cc453035c5f15e77433a445a27cc49f0c",
+      "frozen_sha256": "825066cca46c712c279aa09e4fd6c55cc453035c5f15e77433a445a27cc49f0c"
+    },
+    "case_config.json": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/case_config.json",
+      "source_sha256": "5260cc0e5d547f1cc34f647fb9f676dcd59fde0627be141faf8b2ca492ff5c1e",
+      "frozen_sha256": "5260cc0e5d547f1cc34f647fb9f676dcd59fde0627be141faf8b2ca492ff5c1e"
+    },
+    "source.json": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/source.json",
+      "source_sha256": "c52f0827e4cb63546a46f63515333c80459906dfa60dc6925455cf949f27b5ab",
+      "frozen_sha256": "c52f0827e4cb63546a46f63515333c80459906dfa60dc6925455cf949f27b5ab"
+    },
+    "code_manifest.json": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/code_manifest.json",
+      "source_sha256": "c91f3ac0be4f52ac55f61ce703816152b1df698e86dc65d348737c227176666c",
+      "frozen_sha256": "c91f3ac0be4f52ac55f61ce703816152b1df698e86dc65d348737c227176666c"
+    },
+    "AGENTS.md": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/AGENTS.md",
+      "source_sha256": "8ce5dcee1c023412344f43bc41419a964b71982c43fcc5c4282a91d0eebb00f0",
+      "frozen_sha256": "8ce5dcee1c023412344f43bc41419a964b71982c43fcc5c4282a91d0eebb00f0"
+    },
+    "docs/FINAL_REPORT_ZH.md": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/FINAL_REPORT_ZH.md",
+      "source_sha256": "c4cd64f639200a868a9506dd1b00af53e3497429933cc51df673c2d0df516de3",
+      "frozen_sha256": "c4cd64f639200a868a9506dd1b00af53e3497429933cc51df673c2d0df516de3"
+    },
+    "docs/ANNOTATION_FORMAT_ZH.md": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/ANNOTATION_FORMAT_ZH.md",
+      "source_sha256": "8f2b0fdd49556b1bbd7f6571b2cf34d8467aa4274065e41ba2091b8f5813f0b2",
+      "frozen_sha256": "8f2b0fdd49556b1bbd7f6571b2cf34d8467aa4274065e41ba2091b8f5813f0b2"
+    },
+    "docs/VALIDATION_NOTES.md": {
+      "source": "/data2/wangzhengwei/capture1019_palm_thumb_stability_20261022/VALIDATION_NOTES.md",
+      "source_sha256": "20d2ff4ffbdd63ec875f627a3883e02fa154daff659090f8b62df892ec17e3e9",
+      "frozen_sha256": "20d2ff4ffbdd63ec875f627a3883e02fa154daff659090f8b62df892ec17e3e9"
+    }
+  },
+  "new_packaging_files": [
+    "README.md",
+    "requirements.txt",
+    "environment.json",
+    "external_paths.json",
+    "provenance.json",
+    "package_manifest.json",
+    "tools/verify_code_package.py"
+  ],
+  "historical_candidate_source_included": false,
+  "fitting_or_rendering_rerun": false
+}

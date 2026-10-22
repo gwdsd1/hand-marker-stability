@@ -1,0 +1,64 @@
+{
+  "raw_capture_source": "/data1/DEV/egovicon_joint_captures/capture1019test2_20261019_095858_d74481",
+  "primary_external_files": {
+    "/data2/wangzhengwei/femto_sxt_rgb_extrinsics_candidate_20261020.json": {
+      "sha256_in_original_freeze": "d917118318b181603a8325099668e5f027f7cbd579b103bb5e4454df2bce209a",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data2/wangzhengwei/femto_sxt_rgb_extrinsics_candidate_20261020.npz": {
+      "sha256_in_original_freeze": "66e749bf467fe984c12d3e115397c2743e880a91e44d2d97194c418433ec10aa",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data2/wangzhengwei/hand_joint_identity_20261014/models/mano_right_numeric.npz": {
+      "sha256_in_original_freeze": "4eb3422a145c4384e877ea52d010aa0a2b8674c44ba894ba1cd86392fce30f73",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data2/wangzhengwei/hand_joint_identity_20261014/models/initial_marker_layout.npz": {
+      "sha256_in_original_freeze": "362c940780779c35fe16c4e04efe964422e6a2327a5afbb8a8109303a4dd177e",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data1/DEV/egovicon_joint_captures/capture1019test2_20261019_095858_d74481/mocap/capture1019test2_native300.c3d": {
+      "sha256_in_original_freeze": "4761b74c178f1add6564763ff838378afb4780ca1940e0d5f590845a2ae4a24d",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data1/DEV/egovicon_joint_captures/capture1019test2_20261019_095858_d74481/mocap/saved_markers.json": {
+      "sha256_in_original_freeze": "f466689ca95ea4e2b0ca887d93b64be357fcae96b150f0cf193648ea31aa3bce",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data1/DEV/egovicon_joint_captures/capture1019test2_20261019_095858_d74481/mocap/markers_world_m.npz": {
+      "sha256_in_original_freeze": "0a987b0bf9be0ad6b94ba62e7bb95c9c0b87a4fe14a6da4d92bf5739c2352255",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data1/DEV/egovicon_joint_captures/capture1019test2_20261019_095858_d74481/preview/playback_index.json": {
+      "sha256_in_original_freeze": "f8eb8eef56563ffab07c6da94e79b3bf1692148f9d60fc3c2eadfb705cbc619a",
+      "included": false,
+      "exists_when_packaged": true
+    },
+    "/data1/DEV/egovicon_joint_captures/capture1019test2_20261019_095858_d74481/femto/rgb_depth_ir_calibration.json": {
+      "sha256_in_original_freeze": "f92835d96353c7a904ef8a6bde3882203a7cc9ecb9d1be586a0d888070abc6e2",
+      "included": false,
+      "exists_when_packaged": true
+    }
+  },
+  "additional_runtime_capture_patterns": [
+    "femto/segments/*/frames.tar",
+    "femto/segments/*/frames.csv"
+  ],
+  "replay_inputs_not_included": [
+    "baseline",
+    "baseline_profile",
+    "inputs_v2",
+    "wrist_articulation",
+    "evaluation_reference",
+    "evaluation_finger_records.json",
+    "VISUAL_REVIEW_RECORD.json"
+  ],
+  "scope": "These are runtime paths and required replay inputs, not the full historical research provenance dependency list. No external asset or recorded data is included."
+}

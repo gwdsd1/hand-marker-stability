@@ -1,0 +1,7 @@
+numpy==2.2.6
+scipy==1.15.3
+torch==2.11.0
+smplx==0.1.28
+ezc3d==1.7.0
+av==15.1.0
+opencv-python==5.0.0.93

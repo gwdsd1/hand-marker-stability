@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-22T14:39:11.907553+08:00",
+  "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-94-generic-x86_64-with-glibc2.35",
+  "original_interpreter": "/data2/DEV/soma-repair/.venv/bin/python",
+  "direct_dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "torch": "2.11.0",
+    "smplx": "0.1.28",
+    "ezc3d": "1.7.0",
+    "av": "15.1.0",
+    "opencv-python": "5.0.0.93"
+  },
+  "also_installed_opencv_python_headless": "4.12.0.88",
+  "ffmpeg": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers",
+  "clean_environment_reinstallation_tested": false,
+  "full_transitive_lock": false
+}
